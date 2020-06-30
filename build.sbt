@@ -3,19 +3,12 @@ enablePlugins(ScalablyTypedConverterGenSourcePlugin)
 
 scalaVersion := "2.13.2"
 name := "file-saver-slinky"
-version := "0.1.0"
+version := "0.1.1"
 
 /* javascript / typescript deps */
 Compile / npmDependencies ++= Seq(
-  "@types/react" -> "16.9.34",
-  "@types/react-dom" -> "16.9.6",
   "@types/file-saver" -> "2.0.1",
   "file-saver" -> "2.0.2"
-)
-
-Test / npmDependencies ++= Seq(
-  "react" -> "16.13.1",
-  "react-dom" -> "16.13.1",
 )
 
 libraryDependencies ++= Seq(
