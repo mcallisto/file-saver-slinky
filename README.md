@@ -4,8 +4,11 @@
 It is distributed for Scala 2.13 and Scala.js 1
 
 ```
-resolvers += Resolver.bintrayRepo("mcallisto", "libs")
-libraryDependencies ++= Seq(
-    "default" %%% "file-saver-slinky" % "0.1.1" 
-) 
+libraryDependencies ++= Seq("vision.id" %%% "file-saver-slinky" % "0.1.1") 
+```
+
+## Minimization
+```
+[warn] Wrote file-saver (5 files)
+[warn] Wrote minimized std (0 files)
 ```
