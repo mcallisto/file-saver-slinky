@@ -30,7 +30,7 @@ stMinimize := Selection.AllExcept("file-saver")
 // shade into another package
 stOutputPackage := "vision.id.filesaver.facade"
 
-ThisBuild / organization := "vision.id.file-saver-slinky"
+ThisBuild / organization := "vision.id"
 ThisBuild / organizationName := "vision.id"
 ThisBuild / organizationHomepage := Some(url("http://id.vision/"))
 
